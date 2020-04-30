@@ -4,7 +4,7 @@ Kaggle challenge for classifying handwritten digits from MNIST dataset.
 Details at <https://www.kaggle.com/c/digit-recognizer/overview>.
 
 ## MLP
-Neural network with two hidden layers with softmax output.
+Neural network with two hidden layers with softmax output based on [Google programming exercise.](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/programming-exercise)
 The first layer has 512 units and the second 256 units.
 Each hidden layer is followed by a dropout layer with rate 0.5.
 
