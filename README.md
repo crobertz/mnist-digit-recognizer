@@ -14,4 +14,14 @@ After 50 epochs a training accuracy of 99.29% and validation accuracy of 98.00% 
 On the test set the network achieved an accuracy of 97.728% accuracy.
 
 ## CNN
-Convolutional neural network.
+Convolutional neural network with the following sequential architecture:
+- One convolution layer with 32 3x3 filters using same padding, followed by a 2x2 max pooling layer
+- Three convolution layers with 32 3x3 filters each with no padding, followed by a 2x2 max pooling layer
+- A dense layer of 512 hidden units followed by dropout, followed by a dense layer of 256 hidden units followed by dropout
+- A dense layer with softmax activation for 10 classes
+
+Each dropout layer has rate of 0.5 and each activation is ReLU except for the final softmax layer.
+The network diagram can be viewed in the CNN directory.
+
+Training was done using the same hyperparameters as MLP with the exception of 60 epochs.
+Achieved 99.114% accuracy on test set.
