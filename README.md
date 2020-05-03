@@ -12,3 +12,6 @@ Training is done using Adam optimizer with learning rate 0.003 and categorical c
 Network was trained using batch size 4000 and 0.2 validation split.
 After 50 epochs a training accuracy of 99.29% and validation accuracy of 98.00% was achieved.
 On the test set the network achieved an accuracy of 97.728% accuracy.
+
+## CNN
+Convolutional neural network.
